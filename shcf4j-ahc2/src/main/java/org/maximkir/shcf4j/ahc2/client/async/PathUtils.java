@@ -1,4 +1,4 @@
-package com.imperva.shcf4j.ahc2.client.async;
+package org.maximkir.shcf4j.ahc2.client.async;
 
 import java.nio.file.Path;
 import java.util.Objects;

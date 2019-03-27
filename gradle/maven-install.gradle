@@ -14,14 +14,14 @@ def pomConfig = {
         developer {
             id 'maximkir'
             name 'Maxim Kirilov'
-            email 'maxim.kirilov@imperva.com'
-            organization 'Imperva'
-            organizationUrl 'https://imperva.com'
+            email 'kir.maxim@gmail.com'
+            organization 'maximkir'
+            organizationUrl 'https://maximkir.org'
         }
     }
 
     scm {
-        url 'https://github.com/imperva/shcf4j'
+        url 'https://github.com/maximkir/shcf4j'
     }
 }
 
@@ -39,7 +39,7 @@ publishing {
                 def root = asNode()
                 root.appendNode('description', 'The Simple HTTP Client Facade for Java (SHCF4J) serves as a simple facade or abstraction for various HTTP client frameworks (e.g. java.net.HttpURLConnection, Apache HttpClient, etc.) allowing the end user to plug in the desired HTTP client framework at deployment time.')
                 root.appendNode('name', 'Simple HTTP Client Facade for Java (SHCF4J)')
-                root.appendNode('url', 'https://github.com/imperva/shcf4j')
+                root.appendNode('url', 'https://github.com/maximkir/shcf4j')
                 root.children().last() + pomConfig
             }
         }

@@ -1,19 +1,19 @@
-package com.imperva.shcf4j.ahc2.client.async;
+package org.maximkir.shcf4j.ahc2.client.async;
 
-import com.imperva.shcf4j.Header;
-import com.imperva.shcf4j.HttpHost;
-import com.imperva.shcf4j.HttpRequest;
-import com.imperva.shcf4j.HttpResponse;
-import com.imperva.shcf4j.NotSupportedException;
-import com.imperva.shcf4j.client.AsyncHttpClient;
-import com.imperva.shcf4j.client.CredentialsProvider;
-import com.imperva.shcf4j.client.config.RequestConfig;
-import com.imperva.shcf4j.client.protocol.ClientContext;
-import com.imperva.shcf4j.request.body.multipart.ByteArrayPart;
-import com.imperva.shcf4j.request.body.multipart.FilePart;
-import com.imperva.shcf4j.request.body.multipart.InputStreamPart;
-import com.imperva.shcf4j.request.body.multipart.Part;
-import com.imperva.shcf4j.request.body.multipart.StringPart;
+import org.maximkir.shcf4j.api.Header;
+import org.maximkir.shcf4j.api.HttpHost;
+import org.maximkir.shcf4j.api.HttpRequest;
+import org.maximkir.shcf4j.api.HttpResponse;
+import org.maximkir.shcf4j.api.NotSupportedException;
+import org.maximkir.shcf4j.api.client.AsyncHttpClient;
+import org.maximkir.shcf4j.api.client.CredentialsProvider;
+import org.maximkir.shcf4j.api.client.config.RequestConfig;
+import org.maximkir.shcf4j.api.client.protocol.ClientContext;
+import org.maximkir.shcf4j.api.request.body.multipart.ByteArrayPart;
+import org.maximkir.shcf4j.api.request.body.multipart.FilePart;
+import org.maximkir.shcf4j.api.request.body.multipart.InputStreamPart;
+import org.maximkir.shcf4j.api.request.body.multipart.Part;
+import org.maximkir.shcf4j.api.request.body.multipart.StringPart;
 import org.asynchttpclient.RequestBuilder;
 import org.asynchttpclient.Response;
 

@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.api.java.http.client.config;
+package org.maximkir.shcf4j.java.http.client.config;
 
 import org.maximkir.shcf4j.api.AsyncClientBaseTest;
 import org.maximkir.shcf4j.api.NotSupportedException;

@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.api.example.programmatically;
+package org.maximkir.shcf4j.example.programmatically;
 
 import com.github.tomakehurst.wiremock.junit.WireMockClassRule;
 import org.maximkir.shcf4j.api.HttpClientBuilderFactory;

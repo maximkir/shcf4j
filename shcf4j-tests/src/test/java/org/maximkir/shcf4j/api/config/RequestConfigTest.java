@@ -1,13 +1,13 @@
-package org.maximkir.shcf4j.test.config;
+package org.maximkir.shcf4j.api.config;
 
-import org.maximkir.shcf4j.test.HttpClientBaseTest;
-import org.maximkir.shcf4j.test.HttpClientCommonBuilder;
-import org.maximkir.shcf4j.test.HttpRequest;
-import org.maximkir.shcf4j.test.HttpRequestBuilder;
-import org.maximkir.shcf4j.test.Request;
-import org.maximkir.shcf4j.test.client.config.CookieSpecs;
-import org.maximkir.shcf4j.test.client.config.RequestConfig;
-import org.maximkir.shcf4j.test.client.protocol.ClientContext;
+import org.maximkir.shcf4j.api.HttpClientBaseTest;
+import org.maximkir.shcf4j.api.HttpClientCommonBuilder;
+import org.maximkir.shcf4j.api.HttpRequest;
+import org.maximkir.shcf4j.api.HttpRequestBuilder;
+import org.maximkir.shcf4j.api.Request;
+import org.maximkir.shcf4j.api.client.config.CookieSpecs;
+import org.maximkir.shcf4j.api.client.config.RequestConfig;
+import org.maximkir.shcf4j.api.client.protocol.ClientContext;
 import org.junit.Test;
 
 import java.net.HttpURLConnection;

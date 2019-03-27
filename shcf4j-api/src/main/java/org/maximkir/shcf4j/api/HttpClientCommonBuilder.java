@@ -1,8 +1,8 @@
-package org.maximkir.shcf4j.test;
+package org.maximkir.shcf4j.api;
 
-import org.maximkir.shcf4j.test.client.CredentialsProvider;
-import org.maximkir.shcf4j.test.client.config.RequestConfig;
-import org.maximkir.shcf4j.test.conn.ssl.SSLSessionStrategy;
+import org.maximkir.shcf4j.api.client.CredentialsProvider;
+import org.maximkir.shcf4j.api.client.config.RequestConfig;
+import org.maximkir.shcf4j.api.conn.ssl.SSLSessionStrategy;
 
 import javax.net.ssl.SSLException;
 import java.util.function.Consumer;

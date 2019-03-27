@@ -1,10 +1,10 @@
-package com.imperva.shcf4j.ahc2.client.async;
+package org.maximkir.shcf4j.ahc2.client.async;
 
-import com.imperva.shcf4j.Header;
-import com.imperva.shcf4j.HttpEntity;
-import com.imperva.shcf4j.HttpResponse;
-import com.imperva.shcf4j.ProcessingException;
-import com.imperva.shcf4j.StatusLine;
+import org.maximkir.shcf4j.api.Header;
+import org.maximkir.shcf4j.api.HttpEntity;
+import org.maximkir.shcf4j.api.HttpResponse;
+import org.maximkir.shcf4j.api.ProcessingException;
+import org.maximkir.shcf4j.api.StatusLine;
 import io.netty.handler.codec.http.HttpHeaderNames;
 import org.asynchttpclient.Response;
 

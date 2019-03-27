@@ -1,6 +1,6 @@
-package org.maximkir.shcf4j.test;
+package org.maximkir.shcf4j.api;
 
-import org.maximkir.shcf4j.test.client.protocol.ClientContext;
+import org.maximkir.shcf4j.api.client.protocol.ClientContext;
 import lombok.Builder;
 import lombok.Value;
 

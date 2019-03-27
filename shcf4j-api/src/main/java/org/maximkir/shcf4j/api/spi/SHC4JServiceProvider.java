@@ -1,7 +1,7 @@
-package org.maximkir.shcf4j.test.spi;
+package org.maximkir.shcf4j.api.spi;
 
-import org.maximkir.shcf4j.test.AsyncHttpClientBuilder;
-import org.maximkir.shcf4j.test.SyncHttpClientBuilder;
+import org.maximkir.shcf4j.api.AsyncHttpClientBuilder;
+import org.maximkir.shcf4j.api.SyncHttpClientBuilder;
 
 
 /**

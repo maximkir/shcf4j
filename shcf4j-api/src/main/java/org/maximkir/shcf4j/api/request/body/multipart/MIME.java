@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.test.request.body.multipart;
+package org.maximkir.shcf4j.api.request.body.multipart;
 
 public final class MIME {
 

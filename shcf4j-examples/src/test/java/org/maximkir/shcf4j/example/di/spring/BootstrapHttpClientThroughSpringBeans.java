@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.api.example.di.spring;
+package org.maximkir.shcf4j.example.di.spring;
 
 import com.github.tomakehurst.wiremock.junit.WireMockClassRule;
 import org.maximkir.shcf4j.api.HttpHost;
@@ -22,7 +22,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {BootstrapHttpClientThroughSpringBeans.class})
 @Configuration
-@ComponentScan(basePackages = {"com.imperva.shcf4j.example.di.spring"})
+@ComponentScan(basePackages = {"org.maximkir.shcf4j.example.di.spring"})
 public class BootstrapHttpClientThroughSpringBeans {
 
     private static final int WIREMOCK_PORT = 8089;

@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.test.entity;
+package org.maximkir.shcf4j.api.entity;
 
 import lombok.Builder;
 import lombok.Value;

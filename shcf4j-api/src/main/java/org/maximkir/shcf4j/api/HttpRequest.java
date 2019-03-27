@@ -1,6 +1,6 @@
-package org.maximkir.shcf4j.test;
+package org.maximkir.shcf4j.api;
 
-import org.maximkir.shcf4j.test.request.body.multipart.Part;
+import org.maximkir.shcf4j.api.request.body.multipart.Part;
 
 import java.io.InputStream;
 import java.net.URI;

@@ -1,7 +1,7 @@
-package org.maximkir.shcf4j.test;
+package org.maximkir.shcf4j.api;
 
-import org.maximkir.shcf4j.test.client.SyncHttpClient;
-import org.maximkir.shcf4j.test.client.protocol.ClientContext;
+import org.maximkir.shcf4j.api.client.SyncHttpClient;
+import org.maximkir.shcf4j.api.client.protocol.ClientContext;
 
 import java.io.IOException;
 import java.util.List;

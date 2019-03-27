@@ -1,8 +1,8 @@
-package com.imperva.shcf4j.ahc2.client.async;
+package org.maximkir.shcf4j.ahc2.client.async;
 
-import com.imperva.shcf4j.Header;
-import com.imperva.shcf4j.ProcessingException;
-import com.imperva.shcf4j.client.CredentialsProvider;
+import org.maximkir.shcf4j.api.Header;
+import org.maximkir.shcf4j.api.ProcessingException;
+import org.maximkir.shcf4j.api.client.CredentialsProvider;
 import io.netty.handler.codec.http.HttpHeaders;
 import org.asynchttpclient.Realm;
 

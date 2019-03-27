@@ -1,9 +1,9 @@
-package org.maximkir.shcf4j.test.conn.ssl;
+package org.maximkir.shcf4j.api.conn.ssl;
 
-import org.maximkir.shcf4j.test.HttpClientBaseTest;
-import org.maximkir.shcf4j.test.HttpRequest;
-import org.maximkir.shcf4j.test.HttpRequestBuilder;
-import org.maximkir.shcf4j.test.HttpResponse;
+import org.maximkir.shcf4j.api.HttpClientBaseTest;
+import org.maximkir.shcf4j.api.HttpRequest;
+import org.maximkir.shcf4j.api.HttpRequestBuilder;
+import org.maximkir.shcf4j.api.HttpResponse;
 import org.junit.Test;
 
 import java.net.HttpURLConnection;

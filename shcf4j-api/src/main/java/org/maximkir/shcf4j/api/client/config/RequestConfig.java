@@ -1,7 +1,7 @@
-package org.maximkir.shcf4j.test.client.config;
+package org.maximkir.shcf4j.api.client.config;
 
 
-import org.maximkir.shcf4j.test.HttpHost;
+import org.maximkir.shcf4j.api.HttpHost;
 import lombok.Builder;
 import lombok.Singular;
 import lombok.Value;

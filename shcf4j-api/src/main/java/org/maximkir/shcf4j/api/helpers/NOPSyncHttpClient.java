@@ -1,11 +1,11 @@
-package org.maximkir.shcf4j.test.helpers;
+package org.maximkir.shcf4j.api.helpers;
 
-import org.maximkir.shcf4j.test.HttpHost;
-import org.maximkir.shcf4j.test.HttpRequest;
-import org.maximkir.shcf4j.test.HttpResponse;
-import org.maximkir.shcf4j.test.client.SyncHttpClient;
-import org.maximkir.shcf4j.test.client.protocol.ClientContext;
-import org.maximkir.shcf4j.test.spi.SHC4JServiceProvider;
+import org.maximkir.shcf4j.api.HttpHost;
+import org.maximkir.shcf4j.api.HttpRequest;
+import org.maximkir.shcf4j.api.HttpResponse;
+import org.maximkir.shcf4j.api.client.SyncHttpClient;
+import org.maximkir.shcf4j.api.client.protocol.ClientContext;
+import org.maximkir.shcf4j.api.spi.SHC4JServiceProvider;
 
 import java.util.function.Function;
 

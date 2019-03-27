@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.test;
+package org.maximkir.shcf4j.api;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;

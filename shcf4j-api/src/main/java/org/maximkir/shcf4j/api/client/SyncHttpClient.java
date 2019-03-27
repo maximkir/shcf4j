@@ -1,10 +1,10 @@
-package org.maximkir.shcf4j.test.client;
+package org.maximkir.shcf4j.api.client;
 
-import org.maximkir.shcf4j.test.HttpHost;
-import org.maximkir.shcf4j.test.HttpRequest;
-import org.maximkir.shcf4j.test.HttpResponse;
-import org.maximkir.shcf4j.test.ProcessingException;
-import org.maximkir.shcf4j.test.client.protocol.ClientContext;
+import org.maximkir.shcf4j.api.HttpHost;
+import org.maximkir.shcf4j.api.HttpRequest;
+import org.maximkir.shcf4j.api.HttpResponse;
+import org.maximkir.shcf4j.api.ProcessingException;
+import org.maximkir.shcf4j.api.client.protocol.ClientContext;
 
 import java.io.Closeable;
 import java.io.IOException;

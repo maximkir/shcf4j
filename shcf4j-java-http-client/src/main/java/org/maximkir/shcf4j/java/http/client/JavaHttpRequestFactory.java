@@ -1,11 +1,11 @@
-package org.maximkir.shcf4j.api.java.http.client;
+package org.maximkir.shcf4j.java.http.client;
 
 import org.maximkir.shcf4j.api.Header;
 import org.maximkir.shcf4j.api.HttpHost;
 import org.maximkir.shcf4j.api.HttpRequest;
 import org.maximkir.shcf4j.api.ProcessingException;
 import org.maximkir.shcf4j.api.client.protocol.ClientContext;
-import org.maximkir.shcf4j.api.java.http.client.request.multipart.MultipartBodyPublisherBuilder;
+import org.maximkir.shcf4j.java.http.client.request.multipart.MultipartBodyPublisherBuilder;
 
 import java.io.FileNotFoundException;
 import java.time.Duration;

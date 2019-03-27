@@ -1,7 +1,7 @@
-package org.maximkir.shcf4j.test.client;
+package org.maximkir.shcf4j.api.client;
 
-import org.maximkir.shcf4j.test.auth.AuthScope;
-import org.maximkir.shcf4j.test.auth.Credentials;
+import org.maximkir.shcf4j.api.auth.AuthScope;
+import org.maximkir.shcf4j.api.auth.Credentials;
 import lombok.Builder;
 import lombok.Singular;
 import lombok.Value;

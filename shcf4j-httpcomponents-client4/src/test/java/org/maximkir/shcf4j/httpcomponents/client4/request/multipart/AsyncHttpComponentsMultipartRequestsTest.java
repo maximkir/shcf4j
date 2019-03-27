@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.api.httpcomponents.client4.request.multipart;
+package org.maximkir.shcf4j.httpcomponents.client4.request.multipart;
 
 import org.maximkir.shcf4j.api.AsyncClientBaseTest;
 import org.maximkir.shcf4j.api.request.multipart.MultipartRequestsTest;

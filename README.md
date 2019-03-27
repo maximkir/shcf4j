@@ -1,4 +1,4 @@
-# SHCF4J [![Build Status](https://www.travis-ci.org/imperva/shcf4j.svg?branch=master)](https://www.travis-ci.org/imperva/shcf4j) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.imperva.shcf4j/shcf4j-api/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.imperva.shcf4j/shcf4j-api/) [![Coverage Status](https://coveralls.io/repos/github/imperva/shcf4j/badge.svg?branch=master)](https://coveralls.io/github/imperva/shcf4j?branch=master)
+# SHCF4J [![Build Status](https://www.travis-ci.org/maximkir/shcf4j.svg?branch=master)](https://www.travis-ci.org/maximkir/shcf4j) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.maximkir.shcf4j/shcf4j-api/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.maximkir.shcf4j/shcf4j-api/) [![Coverage Status](https://coveralls.io/repos/github/maximkir/shcf4j/badge.svg?branch=master)](https://coveralls.io/github/maximkir/shcf4j?branch=master)
 The Simple HTTP Client Facade for Java (SHCF4J) serves as a simple facade or abstraction for various HTTP client frameworks (e.g. java.net.HttpURLConnection, Apache HttpClient, etc.) allowing the end user to plug in the desired HTTP client framework at deployment time. This library idea originated from the The Simple Logging Facade for Java [(SLF4J)](http://www.slf4j.org) progect. While SLF4J provides ready to use Logger instances, SHCF4J provides HTTP client builders that used for actual client creation and abstracts under the hood the entire creation and adoption to underlying implementation.
 
 ## Motivation
@@ -62,7 +62,7 @@ Request Execution Example:
 HttpHost host = HttpHost
                 .builder()
                 .schemeName("https")
-                .hostname("imperva.com")
+                .hostname("google.com")
                 .port(443)
                 .build();
 
@@ -100,7 +100,7 @@ CompletableFuture<HttpResponse> cf = asyncRequester.execute(host, request);
 
 
 ## What Happens Behind the Scenes?
-The factory class uses Java ```java.util.ServiceLoader``` in order to find all ```com.imperva.shcf4j.spi.SHC4JServiceProvider``` instances. Then it uses the first found instance for all following requests.
+The factory class uses Java ```java.util.ServiceLoader``` in order to find all ```org.maximkir.shcf4j.api.spi.SHC4JServiceProvider``` instances. Then it uses the first found instance for all following requests.
 
 ## Contributing
 Found a bug? Think you've got an awesome feature you want to add? Contributions are welcome!

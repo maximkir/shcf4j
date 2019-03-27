@@ -1,7 +1,7 @@
-package org.maximkir.shcf4j.test;
+package org.maximkir.shcf4j.api;
 
-import org.maximkir.shcf4j.test.client.AsyncHttpClient;
-import org.maximkir.shcf4j.test.nio.reactor.IOReactorConfig;
+import org.maximkir.shcf4j.api.client.AsyncHttpClient;
+import org.maximkir.shcf4j.api.nio.reactor.IOReactorConfig;
 
 import java.util.concurrent.ThreadFactory;
 

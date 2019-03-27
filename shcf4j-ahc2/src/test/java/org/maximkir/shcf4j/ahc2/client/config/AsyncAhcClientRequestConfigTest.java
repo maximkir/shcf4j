@@ -1,12 +1,12 @@
-package com.imperva.shcf4j.ahc2.client.config;
+package org.maximkir.shcf4j.ahc2.client.config;
 
-import com.imperva.shcf4j.AsyncClientBaseTest;
-import com.imperva.shcf4j.HttpRequestBuilder;
-import com.imperva.shcf4j.Request;
-import com.imperva.shcf4j.client.config.CookieSpecs;
-import com.imperva.shcf4j.client.config.RequestConfig;
-import com.imperva.shcf4j.client.protocol.ClientContext;
-import com.imperva.shcf4j.config.RequestConfigTest;
+import org.maximkir.shcf4j.api.AsyncClientBaseTest;
+import org.maximkir.shcf4j.api.HttpRequestBuilder;
+import org.maximkir.shcf4j.api.Request;
+import org.maximkir.shcf4j.api.client.config.CookieSpecs;
+import org.maximkir.shcf4j.api.client.config.RequestConfig;
+import org.maximkir.shcf4j.api.client.protocol.ClientContext;
+import org.maximkir.shcf4j.api.config.RequestConfigTest;
 import org.junit.Test;
 
 import java.net.HttpURLConnection;

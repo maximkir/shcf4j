@@ -1,13 +1,13 @@
-package org.maximkir.shcf4j.test.helpers;
+package org.maximkir.shcf4j.api.helpers;
 
-import org.maximkir.shcf4j.test.MutableHttpRequest;
-import org.maximkir.shcf4j.test.SyncHttpClientBuilder;
-import org.maximkir.shcf4j.test.HttpHost;
-import org.maximkir.shcf4j.test.client.CredentialsProvider;
-import org.maximkir.shcf4j.test.client.SyncHttpClient;
-import org.maximkir.shcf4j.test.client.config.RequestConfig;
-import org.maximkir.shcf4j.test.config.SocketConfig;
-import org.maximkir.shcf4j.test.conn.ssl.SSLSessionStrategy;
+import org.maximkir.shcf4j.api.MutableHttpRequest;
+import org.maximkir.shcf4j.api.SyncHttpClientBuilder;
+import org.maximkir.shcf4j.api.HttpHost;
+import org.maximkir.shcf4j.api.client.CredentialsProvider;
+import org.maximkir.shcf4j.api.client.SyncHttpClient;
+import org.maximkir.shcf4j.api.client.config.RequestConfig;
+import org.maximkir.shcf4j.api.config.SocketConfig;
+import org.maximkir.shcf4j.api.conn.ssl.SSLSessionStrategy;
 
 import java.util.function.Consumer;
 

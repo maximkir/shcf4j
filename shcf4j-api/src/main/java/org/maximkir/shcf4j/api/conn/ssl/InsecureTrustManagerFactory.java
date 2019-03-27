@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.test.conn.ssl;
+package org.maximkir.shcf4j.api.conn.ssl;
 
 import javax.net.ssl.TrustManagerFactory;
 

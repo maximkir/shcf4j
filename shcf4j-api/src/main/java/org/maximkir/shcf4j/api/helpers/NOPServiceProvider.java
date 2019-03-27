@@ -1,8 +1,8 @@
-package org.maximkir.shcf4j.test.helpers;
+package org.maximkir.shcf4j.api.helpers;
 
-import org.maximkir.shcf4j.test.AsyncHttpClientBuilder;
-import org.maximkir.shcf4j.test.SyncHttpClientBuilder;
-import org.maximkir.shcf4j.test.spi.SHC4JServiceProvider;
+import org.maximkir.shcf4j.api.AsyncHttpClientBuilder;
+import org.maximkir.shcf4j.api.SyncHttpClientBuilder;
+import org.maximkir.shcf4j.api.spi.SHC4JServiceProvider;
 
 public class NOPServiceProvider implements SHC4JServiceProvider {
 

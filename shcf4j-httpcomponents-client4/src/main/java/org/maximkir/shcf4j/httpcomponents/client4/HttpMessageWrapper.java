@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.api.httpcomponents.client4;
+package org.maximkir.shcf4j.httpcomponents.client4;
 
 import org.maximkir.shcf4j.api.Header;
 import org.maximkir.shcf4j.api.HttpMessage;

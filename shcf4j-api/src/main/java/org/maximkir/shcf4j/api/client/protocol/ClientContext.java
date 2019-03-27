@@ -1,7 +1,7 @@
-package org.maximkir.shcf4j.test.client.protocol;
+package org.maximkir.shcf4j.api.client.protocol;
 
-import org.maximkir.shcf4j.test.client.CredentialsProvider;
-import org.maximkir.shcf4j.test.client.config.RequestConfig;
+import org.maximkir.shcf4j.api.client.CredentialsProvider;
+import org.maximkir.shcf4j.api.client.config.RequestConfig;
 
 import java.util.HashMap;
 import java.util.Map;

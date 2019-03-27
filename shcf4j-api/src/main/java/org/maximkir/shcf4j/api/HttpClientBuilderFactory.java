@@ -1,8 +1,8 @@
-package org.maximkir.shcf4j.test;
+package org.maximkir.shcf4j.api;
 
-import org.maximkir.shcf4j.test.helpers.NOPServiceProvider;
-import org.maximkir.shcf4j.test.helpers.Util;
-import org.maximkir.shcf4j.test.spi.SHC4JServiceProvider;
+import org.maximkir.shcf4j.api.helpers.NOPServiceProvider;
+import org.maximkir.shcf4j.api.helpers.Util;
+import org.maximkir.shcf4j.api.spi.SHC4JServiceProvider;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -23,8 +23,8 @@ public class HttpClientBuilderFactory {
     static final AtomicReference<SHC4JServiceProvider> PROVIDER = new AtomicReference<>();
     static final AtomicReference<State> FACTORY_STATE = new AtomicReference<>(State.UNINITIALIZED);
 
-    static final String UNSUCCESSFUL_INIT_MSG =
-            "com.imperva.shcf4j.HttpClientBuilderFactory in failed state. Original exception was thrown EARLIER.";
+    static final String UNSUCCESSFUL_INIT_MSG = HttpClientBuilderFactory.class.getCanonicalName() +
+            " in failed state. Original exception was thrown EARLIER.";
 
     private enum State {
         UNINITIALIZED,

@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.test.helpers;
+package org.maximkir.shcf4j.api.helpers;
 
 
 public final class Util {

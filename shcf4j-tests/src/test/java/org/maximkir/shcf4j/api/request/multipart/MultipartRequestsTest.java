@@ -1,11 +1,11 @@
-package org.maximkir.shcf4j.test.request.multipart;
+package org.maximkir.shcf4j.api.request.multipart;
 
-import org.maximkir.shcf4j.test.HttpClientBaseTest;
-import org.maximkir.shcf4j.test.HttpRequest;
-import org.maximkir.shcf4j.test.HttpRequestBuilder;
-import org.maximkir.shcf4j.test.HttpResponse;
-import org.maximkir.shcf4j.test.entity.ContentType;
-import org.maximkir.shcf4j.test.request.body.multipart.PartBuilder;
+import org.maximkir.shcf4j.api.HttpClientBaseTest;
+import org.maximkir.shcf4j.api.HttpRequest;
+import org.maximkir.shcf4j.api.HttpRequestBuilder;
+import org.maximkir.shcf4j.api.HttpResponse;
+import org.maximkir.shcf4j.api.entity.ContentType;
+import org.maximkir.shcf4j.api.request.body.multipart.PartBuilder;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;

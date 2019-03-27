@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.test.client.config;
+package org.maximkir.shcf4j.api.client.config;
 
 public enum CookieSpecs {
 

@@ -1,12 +1,12 @@
-package org.maximkir.shcf4j.test.proxy;
+package org.maximkir.shcf4j.api.proxy;
 
-import org.maximkir.shcf4j.test.HttpClientBaseTest;
-import org.maximkir.shcf4j.test.HttpHost;
-import org.maximkir.shcf4j.test.HttpRequest;
-import org.maximkir.shcf4j.test.HttpRequestBuilder;
-import org.maximkir.shcf4j.test.HttpResponse;
-import org.maximkir.shcf4j.test.client.config.RequestConfig;
-import org.maximkir.shcf4j.test.client.protocol.ClientContext;
+import org.maximkir.shcf4j.api.HttpClientBaseTest;
+import org.maximkir.shcf4j.api.HttpHost;
+import org.maximkir.shcf4j.api.HttpRequest;
+import org.maximkir.shcf4j.api.HttpRequestBuilder;
+import org.maximkir.shcf4j.api.HttpResponse;
+import org.maximkir.shcf4j.api.client.config.RequestConfig;
+import org.maximkir.shcf4j.api.client.protocol.ClientContext;
 import org.eclipse.jetty.proxy.ConnectHandler;
 import org.eclipse.jetty.proxy.ProxyServlet;
 import org.eclipse.jetty.server.Server;

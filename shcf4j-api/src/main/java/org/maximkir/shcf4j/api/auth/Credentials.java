@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.test.auth;
+package org.maximkir.shcf4j.api.auth;
 
 import java.security.Principal;
 

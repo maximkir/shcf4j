@@ -1,11 +1,11 @@
-package com.imperva.shcf4j.ahc2;
+package org.maximkir.shcf4j.ahc2;
 
-import com.imperva.shcf4j.AsyncHttpClientBuilder;
-import com.imperva.shcf4j.NotSupportedException;
-import com.imperva.shcf4j.SyncHttpClientBuilder;
-import com.imperva.shcf4j.ahc2.client.async.AsyncAhcClientBuilder;
-import com.imperva.shcf4j.helpers.Util;
-import com.imperva.shcf4j.spi.SHC4JServiceProvider;
+import org.maximkir.shcf4j.api.AsyncHttpClientBuilder;
+import org.maximkir.shcf4j.api.NotSupportedException;
+import org.maximkir.shcf4j.api.SyncHttpClientBuilder;
+import org.maximkir.shcf4j.ahc2.client.async.AsyncAhcClientBuilder;
+import org.maximkir.shcf4j.api.helpers.Util;
+import org.maximkir.shcf4j.api.spi.SHC4JServiceProvider;
 import org.asynchttpclient.config.AsyncHttpClientConfigDefaults;
 
 import java.util.regex.Matcher;

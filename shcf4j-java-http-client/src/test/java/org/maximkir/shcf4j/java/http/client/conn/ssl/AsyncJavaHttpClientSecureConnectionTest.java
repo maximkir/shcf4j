@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.api.java.http.client.conn.ssl;
+package org.maximkir.shcf4j.java.http.client.conn.ssl;
 
 import org.maximkir.shcf4j.api.AsyncClientBaseTest;
 import org.maximkir.shcf4j.api.conn.ssl.SecureConnectionTest;

@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.test;
+package org.maximkir.shcf4j.api;
 
 import com.github.tomakehurst.wiremock.junit.WireMockClassRule;
 import org.junit.After;

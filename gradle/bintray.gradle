@@ -28,11 +28,11 @@ bintray {
     publications = ['shcf4jPublication']
     override = true
     pkg {
-        repo = 'imperva.opensource.maven.repository'
+        repo = 'maximkir.opensource.maven.repository'
         name = 'shcf4j'
-        userOrg = 'imperva-admin'
+        userOrg = 'maximkir-admin'
         licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/imperva/shcf4j.git'
+        vcsUrl = 'https://github.com/maximkir/shcf4j.git'
         publish = true
         publicDownloadNumbers = true
         version {

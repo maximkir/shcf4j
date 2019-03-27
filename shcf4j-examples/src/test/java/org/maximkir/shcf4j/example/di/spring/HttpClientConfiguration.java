@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.api.example.di.spring;
+package org.maximkir.shcf4j.example.di.spring;
 
 import org.maximkir.shcf4j.api.HttpClientBuilderFactory;
 import org.maximkir.shcf4j.api.client.SyncHttpClient;

@@ -1,6 +1,6 @@
-package com.imperva.shcf4j.ahc2.client.async;
+package org.maximkir.shcf4j.ahc2.client.async;
 
-import com.imperva.shcf4j.MutableHttpRequest;
+import org.maximkir.shcf4j.api.MutableHttpRequest;
 import org.asynchttpclient.filter.FilterContext;
 import org.asynchttpclient.filter.RequestFilter;
 

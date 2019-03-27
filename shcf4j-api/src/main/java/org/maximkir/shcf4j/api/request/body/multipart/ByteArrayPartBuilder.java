@@ -1,6 +1,6 @@
-package org.maximkir.shcf4j.test.request.body.multipart;
+package org.maximkir.shcf4j.api.request.body.multipart;
 
-import org.maximkir.shcf4j.test.entity.ContentType;
+import org.maximkir.shcf4j.api.entity.ContentType;
 
 import java.util.Arrays;
 import java.util.Objects;

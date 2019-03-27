@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.api.java.http.client;
+package org.maximkir.shcf4j.java.http.client;
 
 import org.maximkir.shcf4j.api.HttpHost;
 import org.maximkir.shcf4j.api.HttpRequest;

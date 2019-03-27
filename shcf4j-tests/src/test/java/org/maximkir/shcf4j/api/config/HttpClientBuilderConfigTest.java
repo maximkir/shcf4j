@@ -1,15 +1,15 @@
-package org.maximkir.shcf4j.test.config;
+package org.maximkir.shcf4j.api.config;
 
-import org.maximkir.shcf4j.test.HttpClientBaseTest;
-import org.maximkir.shcf4j.test.HttpRequest;
-import org.maximkir.shcf4j.test.HttpRequestBuilder;
-import org.maximkir.shcf4j.test.HttpResponse;
-import org.maximkir.shcf4j.test.Request;
-import org.maximkir.shcf4j.test.auth.AuthScope;
-import org.maximkir.shcf4j.test.auth.UsernamePasswordCredentials;
-import org.maximkir.shcf4j.test.client.CredentialsProvider;
-import org.maximkir.shcf4j.test.client.config.CookieSpecs;
-import org.maximkir.shcf4j.test.client.config.RequestConfig;
+import org.maximkir.shcf4j.api.HttpClientBaseTest;
+import org.maximkir.shcf4j.api.HttpRequest;
+import org.maximkir.shcf4j.api.HttpRequestBuilder;
+import org.maximkir.shcf4j.api.HttpResponse;
+import org.maximkir.shcf4j.api.Request;
+import org.maximkir.shcf4j.api.auth.AuthScope;
+import org.maximkir.shcf4j.api.auth.UsernamePasswordCredentials;
+import org.maximkir.shcf4j.api.client.CredentialsProvider;
+import org.maximkir.shcf4j.api.client.config.CookieSpecs;
+import org.maximkir.shcf4j.api.client.config.RequestConfig;
 import org.junit.Assert;
 import org.junit.Test;
 

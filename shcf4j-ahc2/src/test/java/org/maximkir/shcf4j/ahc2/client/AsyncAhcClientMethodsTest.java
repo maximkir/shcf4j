@@ -1,7 +1,7 @@
-package com.imperva.shcf4j.ahc2.client;
+package org.maximkir.shcf4j.ahc2.client;
 
-import com.imperva.shcf4j.AsyncClientBaseTest;
-import com.imperva.shcf4j.request.HttpMethodsTest;
+import org.maximkir.shcf4j.api.AsyncClientBaseTest;
+import org.maximkir.shcf4j.api.request.HttpMethodsTest;
 
 public class AsyncAhcClientMethodsTest extends HttpMethodsTest implements AsyncClientBaseTest {
 

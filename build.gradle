@@ -28,7 +28,7 @@ def javaProjects() {
 }
 
 allprojects {
-    group = 'com.imperva.shcf4j'
+    group = 'org.maximkir.shcf4j'
     version = VERSION + (Boolean.valueOf(System.getProperty("snapshot")) ? "-SNAPSHOT" : "")
     status = 'Integration'
     repositories {

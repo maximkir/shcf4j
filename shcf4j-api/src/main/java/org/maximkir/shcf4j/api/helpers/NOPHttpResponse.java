@@ -1,9 +1,9 @@
-package org.maximkir.shcf4j.test.helpers;
+package org.maximkir.shcf4j.api.helpers;
 
-import org.maximkir.shcf4j.test.Header;
-import org.maximkir.shcf4j.test.HttpEntity;
-import org.maximkir.shcf4j.test.HttpResponse;
-import org.maximkir.shcf4j.test.StatusLine;
+import org.maximkir.shcf4j.api.Header;
+import org.maximkir.shcf4j.api.HttpEntity;
+import org.maximkir.shcf4j.api.HttpResponse;
+import org.maximkir.shcf4j.api.StatusLine;
 
 import java.util.Collections;
 import java.util.List;

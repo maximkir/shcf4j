@@ -1,4 +1,4 @@
-package com.imperva.shcf4j.ahc2.client.config;
+package org.maximkir.shcf4j.ahc2.client.config;
 
 import io.netty.handler.codec.http.cookie.Cookie;
 import org.asynchttpclient.cookie.CookieStore;

@@ -1,6 +1,6 @@
-package org.maximkir.shcf4j.test;
+package org.maximkir.shcf4j.api;
 
-import org.maximkir.shcf4j.test.client.SyncHttpClient;
+import org.maximkir.shcf4j.api.client.SyncHttpClient;
 import org.junit.Assert;
 import org.junit.Test;
 

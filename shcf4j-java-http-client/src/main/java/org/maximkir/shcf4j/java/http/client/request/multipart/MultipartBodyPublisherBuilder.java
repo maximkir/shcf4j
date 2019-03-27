@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.api.java.http.client.request.multipart;
+package org.maximkir.shcf4j.java.http.client.request.multipart;
 
 import org.maximkir.shcf4j.api.request.body.multipart.Part;
 

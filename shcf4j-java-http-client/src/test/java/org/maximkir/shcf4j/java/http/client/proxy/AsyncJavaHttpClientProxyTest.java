@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.api.java.http.client.proxy;
+package org.maximkir.shcf4j.java.http.client.proxy;
 
 import org.maximkir.shcf4j.api.AsyncClientBaseTest;
 import org.maximkir.shcf4j.api.proxy.ProxyTest;

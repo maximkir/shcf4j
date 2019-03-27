@@ -1,4 +1,4 @@
-package org.maximkir.shcf4j.test.config;
+package org.maximkir.shcf4j.api.config;
 
 import lombok.Builder;
 import lombok.Value;
