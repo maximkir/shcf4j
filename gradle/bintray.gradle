@@ -28,9 +28,9 @@ bintray {
     publications = ['shcf4jPublication']
     override = true
     pkg {
-        repo = 'maximkir.opensource.maven.repository'
+        repo = 'public.maven'
         name = 'shcf4j'
-        userOrg = 'maximkir-admin'
+        userOrg = 'maximkir'
         licenses = ['Apache-2.0']
         vcsUrl = 'https://github.com/maximkir/shcf4j.git'
         publish = true
